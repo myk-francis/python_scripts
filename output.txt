@@ -1,0 +1,301 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Truck: BCB7503
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:37
+Speed: 59.26
+Location: Luanshya Road, Ndola, Copperbelt, Zambia
+
+
+Truck: BCD9050
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:43
+Speed: 75.93
+Location: Luanshya, Copperbelt, Zambia
+
+
+Truck: BCC8673
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:50
+Speed: 74.08
+Location: Luanshya Road, Ndola, Copperbelt, Zambia
+
+
+Truck: KCC517MP
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:41
+Speed: 48.15
+Location: Luanshya Road, Ndola, Copperbelt, Zambia
+
+
+Truck: HZC409MP
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:53
+Speed: 31.48
+Location: Monze, Southern, Zambia
+
+
+Truck: T704DQT
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:43
+Speed: 59.26
+Location: Mpika, Muchiga, Zambia
+
+
+Truck: T598DTB
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:02:00
+Speed: 55.56
+Location: Kitwe, Copperbelt, Zambia
+
+
+Truck: HLY660MP
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:01:49
+Speed: 46.3
+Location: Monze, Southern, Zambia
+
+
+Truck: T107DVL
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:02:20
+Speed: 51.86
+Location: Kitwe, Copperbelt, Zambia
+
+
+
+
+Truck: T294DNH
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:03:06
+Speed: 40.74
+Location: Mpika, Muchiga, Zambia
+
+
+
+
+Truck: T243CKV
+Alarm Type: Off the clock
+Alarm Time: 2022-07-03 19:05:25
+Speed: 57.41
+Location: Mpika, Muchiga, Zambia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
