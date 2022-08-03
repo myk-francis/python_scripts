@@ -11,6 +11,7 @@ from sqlalchemy import all_
 logging.basicConfig(filename='reportLOGS.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S %p %Z')
 
 def download_report(arg_date, arg_time):
+    
     print("\n")
     pbar = tqdm(total=100, ascii=True, desc="Downloading")
 

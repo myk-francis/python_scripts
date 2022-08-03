@@ -375,3 +375,164 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 1659459964329	Marionette	INFO	Stopped listening on port 39329
 JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1659509239439	geckodriver	INFO	Listening on 127.0.0.1:50689
+1659509240615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileFRXgGp"
+1659509241812	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFRXgGp/search.json.mozlz4", (void 0)))
+1659509246638	Marionette	INFO	Listening on port 43793
+1659509246790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 396: TypeError: sel is null
+JavaScript warning: http://truesecuritygps.net/js/underscore.js, line 750: unreachable code after return statement
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+1659509259845	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+1659509272323	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript error: http://truesecuritygps.net/layui/lay/modules/table.js, line 2: TypeError: i.layNone is undefined
+1659509385792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1659509408656	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+1659509896759	Marionette	INFO	Stopped listening on port 43793
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1659513808819	geckodriver	INFO	Listening on 127.0.0.1:32835
+1659513809949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileLKJlYX"
+1659513811041	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLKJlYX/search.json.mozlz4", (void 0)))
+1659513816146	Marionette	INFO	Listening on port 43275
+1659513816240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 396: TypeError: sel is null
+JavaScript warning: http://truesecuritygps.net/js/underscore.js, line 750: unreachable code after return statement
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+1659513832036	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+1659513844145	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript error: http://truesecuritygps.net/layui/lay/modules/table.js, line 2: TypeError: i.layNone is undefined
+1659513958152	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1659513981400	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1659514158346	Marionette	INFO	Stopped listening on port 43275
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1659515238599	geckodriver	INFO	Listening on 127.0.0.1:55709
+1659515239776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile80NEoh"
+1659515240819	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile80NEoh/search.json.mozlz4", (void 0)))
+1659515245807	Marionette	INFO	Listening on port 37107
+1659515245935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 396: TypeError: sel is null
+JavaScript warning: http://truesecuritygps.net/js/underscore.js, line 750: unreachable code after return statement
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+JavaScript error: http://truesecuritygps.net/Skins/DefaultIndex_EN/, line 416: TypeError: $.browser is undefined
+1659515264372	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+1659515276633	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript warning: http://truesecuritygps.net/js/underscore.js?v=2022.07.133.66996.006, line 750: unreachable code after return statement
+JavaScript error: http://truesecuritygps.net/layui/lay/modules/table.js, line 2: TypeError: i.layNone is undefined
+1659515389879	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1659515412822	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1659515486076	Marionette	INFO	Stopped listening on port 37107
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

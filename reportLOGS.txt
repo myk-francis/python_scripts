@@ -1,0 +1,398 @@
+2022-08-03 04:27:19 AM EDT - DEBUG - POST http://127.0.0.1:55709/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true}}
+2022-08-03 04:27:19 AM EDT - DEBUG - Starting new HTTP connection (1): 127.0.0.1:55709
+2022-08-03 04:27:25 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session HTTP/1.1" 200 701
+2022-08-03 04:27:25 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:25 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/url {"url": "http://truesecuritygps.net/Skins/DefaultIndex_EN/"}
+2022-08-03 04:27:43 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/url HTTP/1.1" 200 14
+2022-08-03 04:27:43 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:43 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"txtUserName\"]"}
+2022-08-03 04:27:43 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:27:43 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:43 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/6ac56350-34b9-4726-ad6e-0611219fa4da/value {"text": "Truesecurity", "value": ["T", "r", "u", "e", "s", "e", "c", "u", "r", "i", "t", "y"], "id": "6ac56350-34b9-4726-ad6e-0611219fa4da"}
+2022-08-03 04:27:43 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/6ac56350-34b9-4726-ad6e-0611219fa4da/value HTTP/1.1" 200 14
+2022-08-03 04:27:43 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:43 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"txtPwd\"]"}
+2022-08-03 04:27:43 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:27:43 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:43 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/f21f0b81-31f9-4bb8-9882-77ac0c4589fc/value {"text": "TrueGPS123!", "value": ["T", "r", "u", "e", "G", "P", "S", "1", "2", "3", "!"], "id": "f21f0b81-31f9-4bb8-9882-77ac0c4589fc"}
+2022-08-03 04:27:43 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/f21f0b81-31f9-4bb8-9882-77ac0c4589fc/value HTTP/1.1" 200 14
+2022-08-03 04:27:43 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:43 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/f21f0b81-31f9-4bb8-9882-77ac0c4589fc/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "f21f0b81-31f9-4bb8-9882-77ac0c4589fc"}
+2022-08-03 04:27:43 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/f21f0b81-31f9-4bb8-9882-77ac0c4589fc/element HTTP/1.1" 200 88
+2022-08-03 04:27:43 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:43 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "2900446b-ebc9-457a-afb9-59abf3fa8f00", "element-6066-11e4-a52e-4f735466cecf": "2900446b-ebc9-457a-afb9-59abf3fa8f00"}]}
+2022-08-03 04:27:44 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/execute/sync HTTP/1.1" 200 14
+2022-08-03 04:27:44 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:44 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "link text", "value": "Monitoring"}
+2022-08-03 04:27:44 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 404 325
+2022-08-03 04:27:44 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:44 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "link text", "value": "Monitoring"}
+2022-08-03 04:27:44 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 404 325
+2022-08-03 04:27:44 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:45 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "link text", "value": "Monitoring"}
+2022-08-03 04:27:45 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 404 758
+2022-08-03 04:27:45 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:45 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "link text", "value": "Monitoring"}
+2022-08-03 04:27:46 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:27:46 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:56 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/345f4887-08ae-4bb2-bf85-7b36ef9977de/click {"id": "345f4887-08ae-4bb2-bf85-7b36ef9977de"}
+2022-08-03 04:27:56 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/345f4887-08ae-4bb2-bf85-7b36ef9977de/click HTTP/1.1" 200 14
+2022-08-03 04:27:56 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:56 AM EDT - DEBUG - Monitoring Link Found
+2022-08-03 04:27:56 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/window/handles {}
+2022-08-03 04:27:56 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/window/handles HTTP/1.1" 200 89
+2022-08-03 04:27:56 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:56 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/window {"handle": "898695e0-a6e9-4c3a-a14c-bafc3d8e7bc9"}
+2022-08-03 04:27:56 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/window HTTP/1.1" 200 14
+2022-08-03 04:27:56 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:56 AM EDT - DEBUG - Switched Windows 
+
+2022-08-03 04:27:56 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"mUrl\"]"}
+2022-08-03 04:27:56 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 404 328
+2022-08-03 04:27:56 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"mUrl\"]"}
+2022-08-03 04:27:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:27:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"mUrl\"]"}
+2022-08-03 04:27:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:27:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "64d16afb-5124-42e6-a248-74e0b7d3b50f", "element-6066-11e4-a52e-4f735466cecf": "64d16afb-5124-42e6-a248-74e0b7d3b50f"}}
+2022-08-03 04:27:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:27:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:27:57 AM EDT - DEBUG - Found Frame
+
+2022-08-03 04:28:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"goto_report\"]"}
+2022-08-03 04:28:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:28:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:28:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"goto_report\"]"}
+2022-08-03 04:28:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:28:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:28:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/bcbfc802-e9a8-4dc9-a4d0-22bd1c016d03/click {"id": "bcbfc802-e9a8-4dc9-a4d0-22bd1c016d03"}
+2022-08-03 04:28:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/bcbfc802-e9a8-4dc9-a4d0-22bd1c016d03/click HTTP/1.1" 200 14
+2022-08-03 04:28:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:28:57 AM EDT - DEBUG - Found Route Link
+
+2022-08-03 04:28:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"pageShowFrame\"]"}
+2022-08-03 04:28:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:28:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:28:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"pageShowFrame\"]"}
+2022-08-03 04:28:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:28:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:28:57 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "3d6f2f0d-2ded-44c8-b013-872f0aa49ef6", "element-6066-11e4-a52e-4f735466cecf": "3d6f2f0d-2ded-44c8-b013-872f0aa49ef6"}}
+2022-08-03 04:28:57 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:28:57 AM EDT - DEBUG - Finished Request
+2022-08-03 04:28:57 AM EDT - DEBUG - Found Frame 2
+
+2022-08-03 04:29:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "link text", "value": "Route report"}
+2022-08-03 04:29:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/60220082-2011-439a-aaea-857d13df1b47/click {"id": "60220082-2011-439a-aaea-857d13df1b47"}
+2022-08-03 04:29:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/60220082-2011-439a-aaea-857d13df1b47/click HTTP/1.1" 200 14
+2022-08-03 04:29:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:07 AM EDT - DEBUG - Found Route Report Link
+
+2022-08-03 04:29:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"custIframeTree\"]"}
+2022-08-03 04:29:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"custIframeTree\"]"}
+2022-08-03 04:29:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "747627cc-c87d-4af5-b269-72589ef99974", "element-6066-11e4-a52e-4f735466cecf": "747627cc-c87d-4af5-b269-72589ef99974"}}
+2022-08-03 04:29:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:07 AM EDT - DEBUG - Found Frame 3
+
+2022-08-03 04:29:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"tree_4_switch\"]"}
+2022-08-03 04:29:08 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:08 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:13 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"tree_4_switch\"]"}
+2022-08-03 04:29:13 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:13 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:13 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/6eed1b54-8cd7-4003-9e9a-2be5dae48f2e/click {"id": "6eed1b54-8cd7-4003-9e9a-2be5dae48f2e"}
+2022-08-03 04:29:13 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/6eed1b54-8cd7-4003-9e9a-2be5dae48f2e/click HTTP/1.1" 200 14
+2022-08-03 04:29:13 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:13 AM EDT - DEBUG - Found Impala Terminals Link
+
+2022-08-03 04:29:13 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"tree_9_span\"]"}
+2022-08-03 04:29:13 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 404 335
+2022-08-03 04:29:13 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:13 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"tree_9_span\"]"}
+2022-08-03 04:29:13 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:13 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:18 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"tree_9_span\"]"}
+2022-08-03 04:29:18 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:18 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:18 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/ae2821f8-e81d-4e11-a692-655298a36524/click {"id": "ae2821f8-e81d-4e11-a692-655298a36524"}
+2022-08-03 04:29:19 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/ae2821f8-e81d-4e11-a692-655298a36524/click HTTP/1.1" 200 14
+2022-08-03 04:29:19 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:19 AM EDT - DEBUG - Found Impala Trucks Link
+
+2022-08-03 04:29:24 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame/parent {}
+2022-08-03 04:29:24 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame/parent HTTP/1.1" 200 14
+2022-08-03 04:29:24 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:29 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"content-iframe\"]"}
+2022-08-03 04:29:29 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:29 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:29 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "f1a84943-dbfb-4b03-b2ad-6f2b4ae77115", "element-6066-11e4-a52e-4f735466cecf": "f1a84943-dbfb-4b03-b2ad-6f2b4ae77115"}}
+2022-08-03 04:29:29 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:29 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:29 AM EDT - DEBUG - Found Frame 4
+
+2022-08-03 04:29:39 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"beginTime\"]"}
+2022-08-03 04:29:39 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:39 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:39 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/9f4d0b68-5f02-4184-af6b-5bab392e445e/click {"id": "9f4d0b68-5f02-4184-af6b-5bab392e445e"}
+2022-08-03 04:29:39 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/9f4d0b68-5f02-4184-af6b-5bab392e445e/click HTTP/1.1" 200 14
+2022-08-03 04:29:39 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:39 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": null}
+2022-08-03 04:29:39 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:39 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:39 AM EDT - DEBUG - Default Content
+2022-08-03 04:29:44 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "xpath", "value": "//div[@id=\"_my97DP\"]//iframe[@src=\"http://truesecuritygps.net/My97DatePicker/My97DatePicker.htm\"]"}
+2022-08-03 04:29:44 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:44 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:44 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "1ca7a899-96d7-44fd-91ff-21b184ea8429", "element-6066-11e4-a52e-4f735466cecf": "1ca7a899-96d7-44fd-91ff-21b184ea8429"}}
+2022-08-03 04:29:44 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:44 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:44 AM EDT - DEBUG - Found Frame
+2022-08-03 04:29:46 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements {"using": "xpath", "value": "//div[@class=\"WdateDiv\"]//table[@class=\"WdayTable\"]//tbody//tr//td[@class=\"Wwday\" or @class=\"Wday\" or @class=\"WotherDay\"]"}
+2022-08-03 04:29:46 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements HTTP/1.1" 200 248
+2022-08-03 04:29:46 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:46 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/7cf74eb0-ad0c-4fd7-bfc2-8c5d0e72ff6f/text {"id": "7cf74eb0-ad0c-4fd7-bfc2-8c5d0e72ff6f"}
+2022-08-03 04:29:46 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/7cf74eb0-ad0c-4fd7-bfc2-8c5d0e72ff6f/text HTTP/1.1" 200 14
+2022-08-03 04:29:46 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:46 AM EDT - DEBUG - 31
+2022-08-03 04:29:46 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/e8dfa9e6-208a-4ed4-817f-442ab78e74a2/text {"id": "e8dfa9e6-208a-4ed4-817f-442ab78e74a2"}
+2022-08-03 04:29:46 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/e8dfa9e6-208a-4ed4-817f-442ab78e74a2/text HTTP/1.1" 200 13
+2022-08-03 04:29:46 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:46 AM EDT - DEBUG - 1
+2022-08-03 04:29:46 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/fa0ed8b6-1cd7-4893-91b9-4341a74748de/text {"id": "fa0ed8b6-1cd7-4893-91b9-4341a74748de"}
+2022-08-03 04:29:46 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/fa0ed8b6-1cd7-4893-91b9-4341a74748de/text HTTP/1.1" 200 13
+2022-08-03 04:29:46 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:46 AM EDT - DEBUG - 2
+2022-08-03 04:29:46 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/fa0ed8b6-1cd7-4893-91b9-4341a74748de/click {"id": "fa0ed8b6-1cd7-4893-91b9-4341a74748de"}
+2022-08-03 04:29:46 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/fa0ed8b6-1cd7-4893-91b9-4341a74748de/click HTTP/1.1" 200 14
+2022-08-03 04:29:46 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:48 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "xpath", "value": "//div[@class=\"WdateDiv\"]//div[@id=\"dpTime\"]//table[@cellspacing=\"0\"][@cellpadding=\"0\"][@border=\"0\"]//tbody//td//input[@class=\"tB\"]"}
+2022-08-03 04:29:48 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:48 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:48 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/0f239dcf-9553-427d-a253-cf927aae40b6/click {"id": "0f239dcf-9553-427d-a253-cf927aae40b6"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/0f239dcf-9553-427d-a253-cf927aae40b6/click HTTP/1.1" 200 14
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements {"using": "xpath", "value": "//div[@class=\"WdateDiv\"]//div[@id=\"dpTime\"]//table[@nowrap=\"nowrap\"]//tbody//tr//td[@class=\"menu\"]"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements HTTP/1.1" 200 1907
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/1391e5b1-e857-47d2-bdaf-9a2312799956/text {"id": "1391e5b1-e857-47d2-bdaf-9a2312799956"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/1391e5b1-e857-47d2-bdaf-9a2312799956/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/c37b6cd8-90c7-4ed2-afaf-5cbb8554eee1/text {"id": "c37b6cd8-90c7-4ed2-afaf-5cbb8554eee1"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/c37b6cd8-90c7-4ed2-afaf-5cbb8554eee1/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/6b60f01e-cdfe-4bc9-8ff2-4ee2ea42f880/text {"id": "6b60f01e-cdfe-4bc9-8ff2-4ee2ea42f880"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/6b60f01e-cdfe-4bc9-8ff2-4ee2ea42f880/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/a097eb94-071b-427a-a028-84295a5f4822/text {"id": "a097eb94-071b-427a-a028-84295a5f4822"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/a097eb94-071b-427a-a028-84295a5f4822/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/292d0406-6bfd-4d31-be83-868f7cccfeac/text {"id": "292d0406-6bfd-4d31-be83-868f7cccfeac"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/292d0406-6bfd-4d31-be83-868f7cccfeac/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/2d363739-90b2-42bf-a70c-bf73dc4cb4d2/text {"id": "2d363739-90b2-42bf-a70c-bf73dc4cb4d2"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/2d363739-90b2-42bf-a70c-bf73dc4cb4d2/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/b4363162-2fb9-4395-9135-b0a56316eb1a/text {"id": "b4363162-2fb9-4395-9135-b0a56316eb1a"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/b4363162-2fb9-4395-9135-b0a56316eb1a/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/8214a116-4c06-4685-8edf-1ca474552e70/text {"id": "8214a116-4c06-4685-8edf-1ca474552e70"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/8214a116-4c06-4685-8edf-1ca474552e70/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/09a8275f-c641-4510-8dd9-09c931c5ef6a/text {"id": "09a8275f-c641-4510-8dd9-09c931c5ef6a"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/09a8275f-c641-4510-8dd9-09c931c5ef6a/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/373233fb-1cc9-4193-812d-b130ba4fac0f/text {"id": "373233fb-1cc9-4193-812d-b130ba4fac0f"}
+2022-08-03 04:29:49 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/373233fb-1cc9-4193-812d-b130ba4fac0f/text HTTP/1.1" 200 13
+2022-08-03 04:29:49 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:49 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/373233fb-1cc9-4193-812d-b130ba4fac0f/click {"id": "373233fb-1cc9-4193-812d-b130ba4fac0f"}
+2022-08-03 04:29:50 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/373233fb-1cc9-4193-812d-b130ba4fac0f/click HTTP/1.1" 200 14
+2022-08-03 04:29:50 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"dpOkInput\"]"}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/5cb4a33f-6c15-4a66-b127-1475e6d523bd/click {"id": "5cb4a33f-6c15-4a66-b127-1475e6d523bd"}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/5cb4a33f-6c15-4a66-b127-1475e6d523bd/click HTTP/1.1" 200 14
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - Found - Date From
+
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": null}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"mUrl\"]"}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "64d16afb-5124-42e6-a248-74e0b7d3b50f", "element-6066-11e4-a52e-4f735466cecf": "64d16afb-5124-42e6-a248-74e0b7d3b50f"}}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"pageShowFrame\"]"}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "3d6f2f0d-2ded-44c8-b013-872f0aa49ef6", "element-6066-11e4-a52e-4f735466cecf": "3d6f2f0d-2ded-44c8-b013-872f0aa49ef6"}}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"content-iframe\"]"}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "f1a84943-dbfb-4b03-b2ad-6f2b4ae77115", "element-6066-11e4-a52e-4f735466cecf": "f1a84943-dbfb-4b03-b2ad-6f2b4ae77115"}}
+2022-08-03 04:29:52 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:29:52 AM EDT - DEBUG - Finished Request
+2022-08-03 04:29:52 AM EDT - DEBUG - Switched Frames
+
+2022-08-03 04:30:02 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"endTime\"]"}
+2022-08-03 04:30:02 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:02 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:02 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/a7ceaf35-0b85-4b01-81b3-7332bf028e6c/click {"id": "a7ceaf35-0b85-4b01-81b3-7332bf028e6c"}
+2022-08-03 04:30:02 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/a7ceaf35-0b85-4b01-81b3-7332bf028e6c/click HTTP/1.1" 200 14
+2022-08-03 04:30:02 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:02 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": null}
+2022-08-03 04:30:02 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:30:02 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:02 AM EDT - DEBUG - Default Content
+
+2022-08-03 04:30:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "xpath", "value": "//div[@id=\"_my97DP\"]//iframe[@src=\"http://truesecuritygps.net/My97DatePicker/My97DatePicker.htm\"]"}
+2022-08-03 04:30:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:07 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "1ca7a899-96d7-44fd-91ff-21b184ea8429", "element-6066-11e4-a52e-4f735466cecf": "1ca7a899-96d7-44fd-91ff-21b184ea8429"}}
+2022-08-03 04:30:07 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:30:07 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:07 AM EDT - DEBUG - Found Frame
+
+2022-08-03 04:30:09 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements {"using": "xpath", "value": "//div[@class=\"WdateDiv\"]//table[@class=\"WdayTable\"]//tbody//tr//td[@class=\"Wwday\" or @class=\"Wday\" or @class=\"WotherDay\"]"}
+2022-08-03 04:30:09 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements HTTP/1.1" 200 248
+2022-08-03 04:30:09 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:09 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/21eb3504-ac3b-4272-a845-9a78b7014f5a/text {"id": "21eb3504-ac3b-4272-a845-9a78b7014f5a"}
+2022-08-03 04:30:09 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/21eb3504-ac3b-4272-a845-9a78b7014f5a/text HTTP/1.1" 200 14
+2022-08-03 04:30:09 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:09 AM EDT - DEBUG - 31
+2022-08-03 04:30:09 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/465bbd75-6646-4dac-9016-eccf979c1010/text {"id": "465bbd75-6646-4dac-9016-eccf979c1010"}
+2022-08-03 04:30:09 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/465bbd75-6646-4dac-9016-eccf979c1010/text HTTP/1.1" 200 13
+2022-08-03 04:30:09 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:09 AM EDT - DEBUG - 1
+2022-08-03 04:30:09 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/7245ca7a-16b7-48c5-aa24-6a4eba802bb7/text {"id": "7245ca7a-16b7-48c5-aa24-6a4eba802bb7"}
+2022-08-03 04:30:09 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/7245ca7a-16b7-48c5-aa24-6a4eba802bb7/text HTTP/1.1" 200 13
+2022-08-03 04:30:09 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:09 AM EDT - DEBUG - 2
+2022-08-03 04:30:11 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "xpath", "value": "//div[@class=\"WdateDiv\"]//div[@id=\"dpTime\"]//table[@cellspacing=\"0\"][@cellpadding=\"0\"][@border=\"0\"]//tbody//td//input[@class=\"tB\"]"}
+2022-08-03 04:30:11 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:11 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:11 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/0f239dcf-9553-427d-a253-cf927aae40b6/click {"id": "0f239dcf-9553-427d-a253-cf927aae40b6"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/0f239dcf-9553-427d-a253-cf927aae40b6/click HTTP/1.1" 200 14
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements {"using": "xpath", "value": "//div[@class=\"WdateDiv\"]//div[@id=\"dpTime\"]//table[@nowrap=\"nowrap\"]//tbody//tr//td[@class=\"menu\"]"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/elements HTTP/1.1" 200 406
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/838c33b8-78d6-4f1c-a680-b1dbc9b3f641/text {"id": "838c33b8-78d6-4f1c-a680-b1dbc9b3f641"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/838c33b8-78d6-4f1c-a680-b1dbc9b3f641/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/cd4f052e-e1e8-4462-8aa1-d7b713835a19/text {"id": "cd4f052e-e1e8-4462-8aa1-d7b713835a19"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/cd4f052e-e1e8-4462-8aa1-d7b713835a19/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/88e440fb-b640-4c5f-bfa8-0ef59e2c86f6/text {"id": "88e440fb-b640-4c5f-bfa8-0ef59e2c86f6"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/88e440fb-b640-4c5f-bfa8-0ef59e2c86f6/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/18ea3ab8-cbf7-4069-a67e-13d53c611a23/text {"id": "18ea3ab8-cbf7-4069-a67e-13d53c611a23"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/18ea3ab8-cbf7-4069-a67e-13d53c611a23/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/861f0435-01b1-4113-8c94-7a74d27caab6/text {"id": "861f0435-01b1-4113-8c94-7a74d27caab6"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/861f0435-01b1-4113-8c94-7a74d27caab6/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/838c33b8-78d6-4f1c-a680-b1dbc9b3f641/text {"id": "838c33b8-78d6-4f1c-a680-b1dbc9b3f641"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/838c33b8-78d6-4f1c-a680-b1dbc9b3f641/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/cd4f052e-e1e8-4462-8aa1-d7b713835a19/text {"id": "cd4f052e-e1e8-4462-8aa1-d7b713835a19"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/cd4f052e-e1e8-4462-8aa1-d7b713835a19/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/88e440fb-b640-4c5f-bfa8-0ef59e2c86f6/text {"id": "88e440fb-b640-4c5f-bfa8-0ef59e2c86f6"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/88e440fb-b640-4c5f-bfa8-0ef59e2c86f6/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/18ea3ab8-cbf7-4069-a67e-13d53c611a23/text {"id": "18ea3ab8-cbf7-4069-a67e-13d53c611a23"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/18ea3ab8-cbf7-4069-a67e-13d53c611a23/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - GET http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/861f0435-01b1-4113-8c94-7a74d27caab6/text {"id": "861f0435-01b1-4113-8c94-7a74d27caab6"}
+2022-08-03 04:30:12 AM EDT - DEBUG - http://127.0.0.1:55709 "GET /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/861f0435-01b1-4113-8c94-7a74d27caab6/text HTTP/1.1" 200 13
+2022-08-03 04:30:12 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:12 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/861f0435-01b1-4113-8c94-7a74d27caab6/click {"id": "861f0435-01b1-4113-8c94-7a74d27caab6"}
+2022-08-03 04:30:13 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/861f0435-01b1-4113-8c94-7a74d27caab6/click HTTP/1.1" 200 14
+2022-08-03 04:30:13 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"dpOkInput\"]"}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/5cb4a33f-6c15-4a66-b127-1475e6d523bd/click {"id": "5cb4a33f-6c15-4a66-b127-1475e6d523bd"}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/5cb4a33f-6c15-4a66-b127-1475e6d523bd/click HTTP/1.1" 200 14
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - Found - Date To
+
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": null}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"mUrl\"]"}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "64d16afb-5124-42e6-a248-74e0b7d3b50f", "element-6066-11e4-a52e-4f735466cecf": "64d16afb-5124-42e6-a248-74e0b7d3b50f"}}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"pageShowFrame\"]"}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "3d6f2f0d-2ded-44c8-b013-872f0aa49ef6", "element-6066-11e4-a52e-4f735466cecf": "3d6f2f0d-2ded-44c8-b013-872f0aa49ef6"}}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"content-iframe\"]"}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame {"id": {"ELEMENT": "f1a84943-dbfb-4b03-b2ad-6f2b4ae77115", "element-6066-11e4-a52e-4f735466cecf": "f1a84943-dbfb-4b03-b2ad-6f2b4ae77115"}}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/frame HTTP/1.1" 200 14
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:15 AM EDT - DEBUG - Switched Frames
+
+2022-08-03 04:30:15 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"searchBtn\"]"}
+2022-08-03 04:30:15 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:15 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:25 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"searchBtn\"]"}
+2022-08-03 04:30:25 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:25 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:25 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/e9474d6d-d0e0-41e4-8981-aed37d5b45b6/click {"id": "e9474d6d-d0e0-41e4-8981-aed37d5b45b6"}
+2022-08-03 04:30:25 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/e9474d6d-d0e0-41e4-8981-aed37d5b45b6/click HTTP/1.1" 200 14
+2022-08-03 04:30:25 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:25 AM EDT - DEBUG - Found Search Button
+
+2022-08-03 04:30:25 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"export\"]"}
+2022-08-03 04:30:25 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:25 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:35 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element {"using": "css selector", "value": "[id=\"export\"]"}
+2022-08-03 04:30:35 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element HTTP/1.1" 200 88
+2022-08-03 04:30:35 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:35 AM EDT - DEBUG - POST http://127.0.0.1:55709/session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/0be71d74-774e-4884-9e44-95f17d4e5d5e/click {"id": "0be71d74-774e-4884-9e44-95f17d4e5d5e"}
+2022-08-03 04:30:36 AM EDT - DEBUG - http://127.0.0.1:55709 "POST /session/00b9bbdc-3826-486e-983c-9d0117bbe9ca/element/0be71d74-774e-4884-9e44-95f17d4e5d5e/click HTTP/1.1" 200 14
+2022-08-03 04:30:36 AM EDT - DEBUG - Finished Request
+2022-08-03 04:30:36 AM EDT - DEBUG - Found Excel Button
+
+2022-08-03 04:34:15 AM EDT - DEBUG - SUCCESSFULL
+2022-08-03 04:34:15 AM EDT - DEBUG - Please check file route_report_output.xlsx for the output
+2022-08-03 04:34:15 AM EDT - DEBUG - ------END OF PROGRAM-------
+2022-08-03 06:42:49 AM EDT - DEBUG - --------------------ERROR------------------------------
+2022-08-03 06:42:49 AM EDT - DEBUG - [Errno 2] No such file or directory: 'Route Report (03-08-2022) 4 PM.xlsx'
+2022-08-03 06:48:34 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 06:48:34 AM EDT - DEBUG - File is not a zip file
+2022-08-03 06:51:05 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 06:51:05 AM EDT - DEBUG - [Errno 2] No such file or directory: '/INPUT/alarms.xlsx'
+2022-08-03 06:51:34 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 06:51:34 AM EDT - DEBUG - File is not a zip file
+2022-08-03 06:54:36 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 06:54:36 AM EDT - DEBUG - Row or column values must be at least 1
+2022-08-03 06:56:23 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 06:56:23 AM EDT - DEBUG - Workbook.save() missing 1 required positional argument: 'filename'
+2022-08-03 08:33:28 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 08:33:28 AM EDT - DEBUG - 'list' object has no attribute 'max_row'
+2022-08-03 08:34:35 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 08:34:35 AM EDT - DEBUG - list indices must be integers or slices, not str
+2022-08-03 08:37:47 AM EDT - DEBUG - --------------------ERROR---------------------
+2022-08-03 08:37:47 AM EDT - DEBUG - list indices must be integers or slices, not str

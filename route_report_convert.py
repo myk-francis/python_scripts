@@ -3,6 +3,7 @@ from pathlib import Path
 from pydoc import cli
 import re
 import openpyxl
+from openpyxl.styles import Font
 import logging
 from tqdm import tqdm
 from datetime import datetime
@@ -117,7 +118,7 @@ def convert_report(rep_date, rep_time):
 
         wb = openpyxl.Workbook()
 
-        dest_filename = f'{str(Path.cwd())}/OUTPUT/Route Report ({datetime.now().strftime("%d-%m-%Y")}) {display_time} {display_am_pm}.xlsx'
+        dest_filename = f'Route Report ({datetime.now().strftime("%d-%m-%Y")}) {display_time} {display_am_pm}.xlsx'
 
         # dest_filename = f'route_report_output.xlsx'
         pbar.update(10)
@@ -133,12 +134,20 @@ def convert_report(rep_date, rep_time):
         for row in tz_compiled_data:
             sheet.append(row)
 
+        row = sheet.row_dimensions[1]
+
+        row.font = Font(size=15, bold=True)
+
         sheet2 = wb.create_sheet(title="DRC - SA")
 
         sa_compiled_data.insert(0, heading)
 
         for row in sa_compiled_data:
             sheet2.append(row)
+
+        row = sheet2.row_dimensions[1]
+
+        row.font = Font(size=15, bold=True)
 
         wb.save(filename = dest_filename)
 

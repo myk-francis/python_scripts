@@ -9,12 +9,15 @@ import sys
 import route_report_download
 import route_report_convert
 import route_report_mail
+import route_report_alarms
 
 program_successful = False
 user_select_date = ""
 user_select_time = ""
+main_user_date = ""
+main_user_time = ""
 
-print("What should I do?\n1.Download Today's Route Report?\n2.Convert Report?\n3.Send Route Report Email?\nQuit?\n")
+print("What should I do?\n1.Download Today's Route Report?\n2.Convert Report?\n3.Add alarms?\n4.Send Route Report Email?\n5.Quit?\n")
 
 user_input = int(input('>'))
 
@@ -23,14 +26,14 @@ user_date = ''
 user_time = ''
 
 
-if user_input == 4:
+if user_input == 5:
     print("\nSee you next time...")
     sys.exit()
 
 
 if user_input == 1:
 
-    user_time = int(input('\n1.4 AM\n2.9 AM\n3.4 PM \n\n>'))
+    user_input = int(input('\n1.4 AM\n2.10 AM\n3.4 PM \n\n>'))
     
     if user_input == 1:
         user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
@@ -41,6 +44,9 @@ if user_input == 1:
     elif user_input == 3:
         user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
         user_select_time = '16'
+
+    main_user_date = user_select_date
+    main_user_time = user_time
 
     program_successful = route_report_download.download_report(user_select_date, user_select_time)
     # program_successful = True
@@ -66,25 +72,41 @@ if user_input == 1:
 
                 if program_successful:
 
-                    print("\nConversion done Please check the output folder and verify if everything is fine...\n")
-                    user_input = int(input("\nIs the report veryfied and ready to send to client?\n1.Yes, Continue...\n2.No\n\n>"))
-                    if user_input == 1:
+                    print("\nConversion done Please check the output folder and verify if everything is fine and add ALARMS file in there too...\n")
 
-                        user_input = int(input("\nSend Report To Client?\n1.Yes\n2.No\n\n>"))
-                        if user_input == 1:
-                            program_successful = route_report_mail.send_mail(user_select_date, user_select_time)
+                    user_input = int(input("\nIs the alarms.xlsx file in the folder??\n1.Yes\n2.No\n\n>"))
+                    if user_input == 1:
+                            program_successful = route_report_alarms.add_alarms(user_select_date, user_select_time)
                             # program_successful = True
 
                             if program_successful:
-                                print("\n\n\nReport was sent to client successfully\nHave a wonderfull day!!!")
+
+                                print("\n\n\nAlarms added to the Route report successfully, please verify report before the next step!!!")
+
+                                user_input = int(input("\nIs the report veryfied and ready to send to client?\n1.Yes, Continue...\n2.No\n\n>"))
+                                if user_input == 1:
+
+                                    user_input = int(input("\nSend Report To Client?\n1.Yes\n2.No\n\n>"))
+                                    if user_input == 1:
+                                        program_successful = route_report_mail.send_mail(user_select_date, user_select_time)
+                                        # program_successful = True
+
+                                        if program_successful:
+                                            print("\n\n\nReport was sent to client successfully\nHave a wonderfull day!!!")
+                                        else:
+                                            print("\n\nERROR - Something went wrong please check the reportLOGS.txt file")
+                                            exit()
+                                    else:
+                                        print("\n\nCome back when you need me...!!\n") 
+                                        exit()
+                                else:
+                                    print("\n\nCome back when you need me...!!\n") 
+                                    exit()
                             else:
                                 print("\n\nERROR - Something went wrong please check the reportLOGS.txt file")
                                 exit()
-                        else:
-                            print("\n\nCome back when you need me...!!\n") 
-                            exit()
                     else:
-                        print("\n\nCome back when you need me...!!\n") 
+                        print("\n\nPlease add the alarms file then come back we finish this work...!!\n") 
                         exit()
                 else:
                     print("\n\nERROR - Something went wrong please check the reportLOGS.txt file")
@@ -100,6 +122,18 @@ if user_input == 1:
         exit()
     
 elif user_input == 2:
+
+    user_input = int(input('\n1.4 AM\n2.9 AM\n3.4 PM \n\n>'))
+
+    if user_input == 1:
+        user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
+        user_select_time = '4'
+    elif user_input == 2:
+        user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
+        user_select_time = '9'
+    elif user_input == 3:
+        user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
+        user_select_time = '16'
     
     program_successful = route_report_convert.convert_report(user_select_date, user_select_time)
 
@@ -108,7 +142,30 @@ elif user_input == 2:
     else:
         print("\nERROR - Something went wrong please check the reportLOGS.txt file")
         exit()
+
 elif user_input == 3:
+
+    user_input = int(input('\n1.4 AM\n2.9 AM\n3.4 PM \n\n>'))
+
+    if user_input == 1:
+        user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
+        user_select_time = '4'
+    elif user_input == 2:
+        user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
+        user_select_time = '9'
+    elif user_input == 3:
+        user_select_date = str(datetime.now().strftime("%d")).lstrip("0")
+        user_select_time = '16'
+
+    program_successful = route_report_alarms.add_alarms(user_select_date, user_select_time)
+
+    if program_successful:
+        print("\nAlarms added to the Route report successfully, please verify report before the next step!!!\n\n")
+    else:
+        print("\nERROR - Something went wrong please check the reportLOGS.txt file")
+        exit()
+
+elif user_input == 4:
 
     user_input = int(input('\n1.4 AM\n2.9 AM\n3.4 PM \n\n>'))
     
