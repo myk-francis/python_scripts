@@ -1,301 +1,768 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Truck: BCB7503
+Truck: ACQ4037
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:37
-Speed: 59.26
-Location: Luanshya Road, Ndola, Copperbelt, Zambia
+Alarm Time: 2022/8/3 12:31:05
+Speed: 0
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.182569,27.782136
 
 
-Truck: BCD9050
+Truck: ACZ4048
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:43
-Speed: 75.93
-Location: Luanshya, Copperbelt, Zambia
+Alarm Time: 2022/8/3 13:19:59
+Speed: 0.09
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.1782417,27.77907
 
 
-Truck: BCC8673
+Truck: AEU9232
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:50
-Speed: 74.08
-Location: Luanshya Road, Ndola, Copperbelt, Zambia
+Alarm Time: 2022/8/3 12:14:59
+Speed: 9
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.171745,27.7732983
 
 
-Truck: KCC517MP
+Truck: BAK8249ZM
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:41
-Speed: 48.15
-Location: Luanshya Road, Ndola, Copperbelt, Zambia
+Alarm Time: 2022/8/3 12:09:23
+Speed: 3.7
+Location: Ndola, Copperbelt, Zambia
+Link: http://maps.google.com/maps?q=-12.9961017,28.64665
 
 
-Truck: HZC409MP
+Truck: BAT3937ZM
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:53
+Alarm Time: 2022/8/3 12:18:18
+Speed: 0
+Location: Ndola, Copperbelt, Zambia
+Link: http://maps.google.com/maps?q=-13.0041017,28.6507333
+
+
+Truck: BAT3952ZM
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:23:13
+Speed: 1.85
+Location: Ndola, Copperbelt, Zambia
+Link: http://maps.google.com/maps?q=-13.0041083,28.6503833
+
+
+Truck: BAT4203ZM
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:11:48
+Speed: 9.26
+Location: Ndola, Copperbelt, Zambia
+Link: http://maps.google.com/maps?q=-13.0025217,28.6491667
+
+
+Truck: HZC403MP
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:02:01
+Speed: 7.41
+Location: Kazungula, Southern, Zambia
+Link: http://maps.google.com/maps?q=-17.7873183,25.2682
+
+
+Truck: T117CKF
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:10:41
+Speed: 22.22
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.6272167,32.666
+
+
+Truck: T158DDY
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 14:26:12
+Speed: 0
+Location: Lubumbashi, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-11.574895,27.48892
+
+
+Truck: T168DDY
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 20:45:27
+Speed: 0.06
+Location: Lubumbashi, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-11.562825,27.4773767
+
+
+Truck: T168DDY
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:03:31
+Speed: 44.45
+Location: Lubumbashi, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-11.547635,27.46755
+
+
+Truck: T184CUQ
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 21:48:43
+Speed: 0
+Location: Makambako Urban District, Njombe Region, Tanzania
+Link: http://maps.google.com/maps?q=-8.8369667,34.8358483
+
+
+Truck: T201DYR
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:03:46
+Speed: 3.7
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.1927817,27.7875333
+
+
+Truck: T211DNF
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:06:37
+Speed: 30.02
+Location: Isoka, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-10.0210233,32.695
+
+
+Truck: T215DBT
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 18:45:58
+Speed: 0
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.355635,32.7415833
+
+
+Truck: T234DNF
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:02:19
+Speed: 1.85
+Location: Lubumbashi, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-11.5629783,27.47755
+
+
+Truck: T254CWA
+Alarm Type: Low power alarm
+Alarm Time: 2022/8/4 0:51:07
+Speed: 44.45
+Location: Mufindi District, Iringa Region, Tanzania
+Link: http://maps.google.com/maps?q=-8.1928667,35.3804167
+
+
+Truck: T254CWA
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 21:48:20
+Speed: 0
+Location: Makambako Urban District, Njombe Region, Tanzania
+Link: http://maps.google.com/maps?q=-8.836915,34.8359133
+
+
+Truck: T264DNQ
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:19:28
+Speed: 27.04
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.281945,32.807665
+
+
+Truck: T264DNQ
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 11:08:59
+Speed: 4.02
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3128583,32.76482
+
+
+Truck: T264DNQ
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:00:41
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.31515,32.7638883
+
+
+Truck: T264DNQ
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 9:23:04
+Speed: 0
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3218567,32.7615167
+
+
+Truck: T324BZY
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:02:04
+Speed: 1.85
+Location: Lubumbashi, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-11.5638267,27.4770333
+
+
+Truck: T327DFG
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 17:09:34
+Speed: 29.09
+Location: Bagamoyo District, Pwani Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.6648217,38.556315
+
+
+Truck: T334DWZ
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:14:58
+Speed: 0.04
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.17312,27.7748067
+
+
+Truck: T356DWZ
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:19:47
+Speed: 16.67
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.1691867,27.7644667
+
+
+Truck: T362DXB
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 18:52:25
+Speed: 1.09
+Location: Momba District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.2651883,32.827235
+
+
+Truck: T362DXB
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 18:31:34
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.314965,32.764195
+
+
+Truck: T362DXB
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 18:21:33
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.315505,32.7634533
+
+
+Truck: T362DXB
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 17:35:17
+Speed: 0
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3222367,32.7616533
+
+
+Truck: T362DXB
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 15:31:10
+Speed: 3.7
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3364517,32.7561167
+
+
+Truck: T362DXB
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 15:09:00
+Speed: 4.05
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3427033,32.7546483
+
+
+Truck: T368CVL (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:53:07
+Speed: 1.85
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8223483,39.2781167
+
+
+Truck: T368CVL (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:53:05
+Speed: 1.85
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8223633,39.2781167
+
+
+Truck: T368CVL (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:52:58
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8223683,39.2781167
+
+
+Truck: T368CVL (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:52:44
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8223633,39.2781167
+
+
+Truck: T368CVL (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:27:03
+Speed: 0
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8533383,39.2269692
+
+
+Truck: T368CVL (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:07:02
+Speed: 0
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.845533,39.241921
+
+
+Truck: T420CMR
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:52:57
+Speed: 0
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.29197,32.7989717
+
+
+Truck: T427CMR
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:10:27
+Speed: 13
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.4498,32.678145
+
+
+Truck: T428DZB
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 17:09:27
+Speed: 22.08
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.787205,39.107865
+
+
+Truck: T428DZB
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 16:59:27
+Speed: 24.02
+Location: Kisarawe District, Pwani Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.7915517,39.02932
+
+
+Truck: T428DZB
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:10:44
+Speed: 27.06
+Location: Iringa Road, Mvomero District, Morogoro Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.839515,37.6330617
+
+
+Truck: T432BVZ
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:02:05
+Speed: 16.67
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3922883,32.72075
+
+
+Truck: T462CUP
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 18:47:55
+Speed: 13.09
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.298455,32.7936333
+
+
+Truck: T462CUP
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 18:32:44
+Speed: 1.85
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3150167,32.7642667
+
+
+Truck: T462CUP
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 18:17:54
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3160767,32.7629767
+
+
+Truck: T462CUP
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 17:07:10
+Speed: 0.09
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.32559,32.7600933
+
+
+Truck: T462CUP
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 15:34:07
+Speed: 0
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3347483,32.756075
+
+
+Truck: T462CUP
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 15:05:45
+Speed: 10.03
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3490783,32.7524467
+
+
+Truck: T472DYW
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:05:56
+Speed: 0
+Location: Mbeya District, Mbeya Region, Tanzania
+Link: http://maps.google.com/maps?q=-8.8705183,33.6167333
+
+
+Truck: T505DQH
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:09:37
+Speed: 29.07
+Location: Mpika, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-11.802415,31.4529567
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:51:34
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8224317,39.2780333
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:18:43
+Speed: 0
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8551317,39.2228
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:18:42
+Speed: 0
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8551317,39.2228
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:18:20
+Speed: 3.7
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8551383,39.2228
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:18:15
+Speed: 5.56
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8551317,39.22275
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:18:07
+Speed: 5.56
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8551783,39.22275
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:14:40
+Speed: 0
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.85133,39.2309833
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:12:21
+Speed: 35.19
+Location: Nyerere Road, Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8492817,39.2351333
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:10:43
+Speed: 11.11
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8492017,39.23955
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 2:09:10
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8500917,39.2400833
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 1:58:52
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8500867,39.2410333
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 1:56:51
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.8500467,39.24105
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Photoelectric alarm
+Alarm Time: 2022/8/4 1:39:55
+Speed: 0
+Location: Dar es Salaam, Dar es Salaam Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.857293,39.238475
+
+
+Truck: T520DNH (DRR)
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 10:37:24
+Speed: 26.08
+Location: Kisarawe District, Pwani Region, Tanzania
+Link: http://maps.google.com/maps?q=-6.791885,39.0331467
+
+
+Truck: T602DXQ
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:04:00
+Speed: 0
+Location: Momba District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.260505,32.83011
+
+
+Truck: T602DXQ
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:52:56
 Speed: 31.48
-Location: Monze, Southern, Zambia
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.2909217,32.7995167
 
 
-Truck: T704DQT
+Truck: T602DXQ
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 11:33:58
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.314895,32.764195
+
+
+Truck: T602DXQ
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:23:18
+Speed: 0.09
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3151933,32.7639867
+
+
+Truck: T602DXQ
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 9:23:03
+Speed: 0
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3245883,32.76046
+
+
+Truck: T619BVP
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:43
-Speed: 59.26
+Alarm Time: 2022/8/3 12:15:33
+Speed: 3
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.2399617,27.813705
+
+
+Truck: T622DPV
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:40:11
+Speed: 0
+Location: Sakania, Katanga, Democratic Republic of the Congo
+Link: http://maps.google.com/maps?q=-12.1749067,27.77634
+
+
+Truck: T690BRL
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 14:47:41
+Speed: 62.97
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.2880917,32.8039833
+
+
+Truck: T690BRL
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 14:37:41
+Speed: 9.26
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.310495,32.77125
+
+
+Truck: T690BRL
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 14:37:41
+Speed: 9.26
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.310495,32.77125
+
+
+Truck: T690BRL
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 14:33:56
+Speed: 5.04
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3142767,32.7642433
+
+
+Truck: T690BRL
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 10:54:27
+Speed: 0
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3353483,32.7561
+
+
+Truck: T699BFJ
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 16:55:23
+Speed: 0
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.287565,32.8044217
+
+
+Truck: T699BFJ
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 16:35:23
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3148333,32.7641217
+
+
+Truck: T699BFJ
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 16:30:22
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3156117,32.7630883
+
+
+Truck: T699BFJ
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 12:49:24
+Speed: 3.06
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3338067,32.7561283
+
+
+Truck: T699BFJ
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:20:38
+Speed: 1.04
+Location: Great North Road, Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3398483,32.755765
+
+
+Truck: T729DWF
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:07:40
+Speed: 1.07
+Location: Momba District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.259965,32.8297
+
+
+Truck: T729DWF
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:52:22
+Speed: 38.89
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.2928183,32.7976
+
+
+Truck: T729DWF
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 11:37:40
+Speed: 12.01
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.31081,32.7699417
+
+
+Truck: T729DWF
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:32:39
+Speed: 0.08
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.314645,32.7644067
+
+
+Truck: T729DWF
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 9:22:56
+Speed: 0
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3243817,32.7607483
+
+
+Truck: T785CCY
+Alarm Type: Off the clock
+Alarm Time: 2022/8/3 12:25:37
+Speed: 0
 Location: Mpika, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-11.8939117,31.4172567
 
 
-Truck: T598DTB
+Truck: T885AXS
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:02:00
-Speed: 55.56
-Location: Kitwe, Copperbelt, Zambia
+Alarm Time: 2022/8/3 12:03:35
+Speed: 9.26
+Location: Iringa Road, Kilolo District, Iringa Region, Tanzania
+Link: http://maps.google.com/maps?q=-7.6684267,36.1683333
 
 
-Truck: HLY660MP
+Truck: T889AXS
 Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:01:49
-Speed: 46.3
-Location: Monze, Southern, Zambia
-
-
-Truck: T107DVL
-Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:02:20
-Speed: 51.86
-Location: Kitwe, Copperbelt, Zambia
-
-
-
-
-Truck: T294DNH
-Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:03:06
-Speed: 40.74
-Location: Mpika, Muchiga, Zambia
-
-
-
-
-Truck: T243CKV
-Alarm Type: Off the clock
-Alarm Time: 2022-07-03 19:05:25
-Speed: 57.41
-Location: Mpika, Muchiga, Zambia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Alarm Time: 2022/8/3 12:10:40
+Speed: 11.08
+Location: Kilolo District, Iringa Region, Tanzania
+Link: http://maps.google.com/maps?q=-7.693505,36.024565
+
+
+Truck: T975DUS
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:30:40
+Speed: 25.93
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.29162,32.7988333
+
+
+Truck: T975DUS
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 11:16:18
+Speed: 7
+Location: Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3133817,32.7643217
+
+
+Truck: T975DUS
+Alarm Type: Regional alarm
+Alarm Time: 2022/8/3 11:04:47
+Speed: 0
+Location: Great North Road, Tunduma District, Songwe Region, Tanzania
+Link: http://maps.google.com/maps?q=-9.3158583,32.7629817
+
+
+Truck: T975DUS
+Alarm Type: Into the community alarm
+Alarm Time: 2022/8/3 9:23:07
+Speed: 0
+Location: Nakonde, Muchiga, Zambia
+Link: http://maps.google.com/maps?q=-9.3226983,32.7612983
 
 

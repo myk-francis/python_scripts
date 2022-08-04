@@ -11,16 +11,16 @@ from sqlalchemy import all_
 logging.basicConfig(filename='reportLOGS.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S %p %Z')
 
 def download_report(arg_date, arg_time):
-    
+
     print("\n")
     pbar = tqdm(total=100, ascii=True, desc="Downloading")
 
     browser = webdriver.Firefox()
     browser.get('http://truesecuritygps.net/Skins/DefaultIndex_EN/')
 
-    userElem = browser.find_element_by_id('txtUserName')
+    userElem = browser.find_element(By.ID, 'txtUserName')
     userElem.send_keys('Truesecurity')
-    passwordElem = browser.find_element_by_id('txtPwd')
+    passwordElem = browser.find_element(By.ID, 'txtPwd')
     passwordElem.send_keys('TrueGPS123!')
     passwordElem.submit()
 
@@ -53,7 +53,7 @@ def download_report(arg_date, arg_time):
         something = WebDriverWait(browser, 30).until(
             EC.presence_of_element_located((By.ID, "mUrl"))
         )
-        browser.switch_to.frame(browser.find_element_by_id('mUrl'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'mUrl'))
     except NoSuchElementException:
         logging.debug("Missing Frame")
         return False
@@ -67,7 +67,7 @@ def download_report(arg_date, arg_time):
         report_link = WebDriverWait(browser, 10).until(
             EC.presence_of_element_located((By.ID, "goto_report"))
         )
-        report_link = browser.find_element_by_id("goto_report")
+        report_link = browser.find_element(By.ID, "goto_report")
         report_link.click()
     except NoSuchElementException:
         logging.debug("Missing Element - Route Link")
@@ -79,7 +79,7 @@ def download_report(arg_date, arg_time):
         something = WebDriverWait(browser, 30).until(
             EC.presence_of_element_located((By.ID, "pageShowFrame"))
         )
-        browser.switch_to.frame(browser.find_element_by_id('pageShowFrame'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'pageShowFrame'))
     except NoSuchElementException:
         logging.debug("Missing Frame 2")
         return False
@@ -90,7 +90,7 @@ def download_report(arg_date, arg_time):
 
     try:
         time.sleep(10)
-        rr_button = browser.find_element_by_link_text("Route report") 
+        rr_button = browser.find_element(By.LINK_TEXT,"Route report") 
         rr_button.click()
     except NoSuchElementException:
         logging.debug('Missing Element - Route Link 2')
@@ -104,7 +104,7 @@ def download_report(arg_date, arg_time):
         something = WebDriverWait(browser, 30).until(
             EC.presence_of_element_located((By.ID, "custIframeTree"))
         )
-        browser.switch_to.frame(browser.find_element_by_id('custIframeTree'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'custIframeTree'))
     except NoSuchElementException:
         logging.debug("Missing Frame 3")
         return False
@@ -117,7 +117,7 @@ def download_report(arg_date, arg_time):
             EC.presence_of_element_located((By.ID, "tree_4_switch"))
         )
         time.sleep(5)
-        plus_button = browser.find_element_by_id('tree_4_switch')
+        plus_button = browser.find_element(By.ID, 'tree_4_switch')
         plus_button.click()
     except NoSuchElementException:
         logging.debug("Missing Element - Plus Link Impala Terminals")
@@ -132,7 +132,7 @@ def download_report(arg_date, arg_time):
             EC.presence_of_element_located((By.ID, "tree_9_span"))
         )
         time.sleep(5)
-        impala_button = browser.find_element_by_id('tree_9_span')
+        impala_button = browser.find_element(By.ID, 'tree_9_span')
         impala_button.click()
     except NoSuchElementException:
         logging.debug("Missing Element - Plus Link Impala Trucks")
@@ -145,7 +145,7 @@ def download_report(arg_date, arg_time):
         time.sleep(5)
         browser.switch_to.parent_frame()
         time.sleep(5)
-        browser.switch_to.frame(browser.find_element_by_id('content-iframe'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'content-iframe'))
     except NoSuchElementException:
         logging.debug("Missing Frame 4")
         return False
@@ -156,18 +156,18 @@ def download_report(arg_date, arg_time):
 
     try:
         time.sleep(10)
-        bg_date = browser.find_element_by_id('beginTime')
+        bg_date = browser.find_element(By.ID, 'beginTime')
         bg_date.click()
 
         browser.switch_to.default_content()
         logging.debug("Default Content")
         time.sleep(5)
 
-        browser.switch_to.frame(browser.find_element_by_xpath('//div[@id="_my97DP"]//iframe[@src="http://truesecuritygps.net/My97DatePicker/My97DatePicker.htm"]'))
+        browser.switch_to.frame(browser.find_element(By.XPATH, '//div[@id="_my97DP"]//iframe[@src="http://truesecuritygps.net/My97DatePicker/My97DatePicker.htm"]'))
         logging.debug("Found Frame")
 
         time.sleep(2)
-        all_dates = browser.find_elements_by_xpath('//div[@class="WdateDiv"]//table[@class="WdayTable"]//tbody//tr//td[@class="Wwday" or @class="Wday" or @class="WotherDay"]')
+        all_dates = browser.find_elements(By.XPATH, '//div[@class="WdateDiv"]//table[@class="WdayTable"]//tbody//tr//td[@class="Wwday" or @class="Wday" or @class="WotherDay"]')
 
         for date_element in all_dates:
             date = date_element.text
@@ -177,9 +177,9 @@ def download_report(arg_date, arg_time):
                 break
 
         time.sleep(2)
-        browser.find_element_by_xpath('//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@cellspacing="0"][@cellpadding="0"][@border="0"]//tbody//td//input[@class="tB"]').click()
+        browser.find_element(By.XPATH, '//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@cellspacing="0"][@cellpadding="0"][@border="0"]//tbody//td//input[@class="tB"]').click()
 
-        all_time_elements = browser.find_elements_by_xpath('//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@nowrap="nowrap"]//tbody//tr//td[@class="menu"]')
+        all_time_elements = browser.find_elements(By.XPATH, '//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@nowrap="nowrap"]//tbody//tr//td[@class="menu"]')
 
         for time_element in all_time_elements:
             t_element = time_element.text
@@ -188,7 +188,7 @@ def download_report(arg_date, arg_time):
                 break
 
         time.sleep(2)
-        browser.find_element_by_id('dpOkInput').click()
+        browser.find_element(By.ID, 'dpOkInput').click()
 
     except Exception as e:
         logging.debug("Missing Element - Date From")
@@ -201,9 +201,9 @@ def download_report(arg_date, arg_time):
 
     try:
         browser.switch_to.default_content()
-        browser.switch_to.frame(browser.find_element_by_id('mUrl'))
-        browser.switch_to.frame(browser.find_element_by_id('pageShowFrame'))
-        browser.switch_to.frame(browser.find_element_by_id('content-iframe'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'mUrl'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'pageShowFrame'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'content-iframe'))
     except Exception as e:
         logging.debug("Problem - Switching frames")
         logging.debug(e)
@@ -215,18 +215,18 @@ def download_report(arg_date, arg_time):
 
     try:
         time.sleep(10)
-        end_date = browser.find_element_by_id('endTime')
+        end_date = browser.find_element(By.ID, 'endTime')
         end_date.click()
 
         browser.switch_to.default_content()
         logging.debug("Default Content\n")
         time.sleep(5)
 
-        browser.switch_to.frame(browser.find_element_by_xpath('//div[@id="_my97DP"]//iframe[@src="http://truesecuritygps.net/My97DatePicker/My97DatePicker.htm"]'))
+        browser.switch_to.frame(browser.find_element(By.XPATH, '//div[@id="_my97DP"]//iframe[@src="http://truesecuritygps.net/My97DatePicker/My97DatePicker.htm"]'))
         logging.debug("Found Frame\n")
 
         time.sleep(2)
-        all_dates = browser.find_elements_by_xpath('//div[@class="WdateDiv"]//table[@class="WdayTable"]//tbody//tr//td[@class="Wwday" or @class="Wday" or @class="WotherDay"]')
+        all_dates = browser.find_elements(By.XPATH, '//div[@class="WdateDiv"]//table[@class="WdayTable"]//tbody//tr//td[@class="Wwday" or @class="Wday" or @class="WotherDay"]')
 
         for date_element in all_dates:
             date = date_element.text
@@ -236,9 +236,9 @@ def download_report(arg_date, arg_time):
                 break
 
         time.sleep(2)
-        browser.find_element_by_xpath('//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@cellspacing="0"][@cellpadding="0"][@border="0"]//tbody//td//input[@class="tB"]').click()
+        browser.find_element(By.XPATH, '//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@cellspacing="0"][@cellpadding="0"][@border="0"]//tbody//td//input[@class="tB"]').click()
 
-        all_time_elements = browser.find_elements_by_xpath('//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@nowrap="nowrap"]//tbody//tr//td[@class="menu"]')
+        all_time_elements = browser.find_elements(By.XPATH, '//div[@class="WdateDiv"]//div[@id="dpTime"]//table[@nowrap="nowrap"]//tbody//tr//td[@class="menu"]')
 
         integer_list = []
 
@@ -261,7 +261,7 @@ def download_report(arg_date, arg_time):
         
 
         time.sleep(2)
-        browser.find_element_by_id('dpOkInput').click()
+        browser.find_element(By.ID, 'dpOkInput').click()
     except NoSuchElementException:
         logging.debug("Missing Element - Date To")
         return False
@@ -272,9 +272,9 @@ def download_report(arg_date, arg_time):
 
     try:
         browser.switch_to.default_content()
-        browser.switch_to.frame(browser.find_element_by_id('mUrl'))
-        browser.switch_to.frame(browser.find_element_by_id('pageShowFrame'))
-        browser.switch_to.frame(browser.find_element_by_id('content-iframe'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'mUrl'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'pageShowFrame'))
+        browser.switch_to.frame(browser.find_element(By.ID, 'content-iframe'))
     except Exception as e:
         logging.debug("Problem - Switching frames")
         logging.debug(e)
@@ -289,7 +289,7 @@ def download_report(arg_date, arg_time):
             EC.presence_of_element_located((By.ID, "searchBtn"))
         )
         time.sleep(10)
-        query_btn = browser.find_element_by_id('searchBtn')
+        query_btn = browser.find_element(By.ID, 'searchBtn')
         query_btn.click()
     except NoSuchElementException:
         logging.debug("Missing Element - Search Button")
@@ -302,7 +302,7 @@ def download_report(arg_date, arg_time):
             EC.presence_of_element_located((By.ID, "export"))
         )
         time.sleep(10)
-        excel_btn = browser.find_element_by_id('export')
+        excel_btn = browser.find_element(By.ID, 'export')
         excel_btn.click()
     except NoSuchElementException:
         logging.debug("Missing Element - Export Button")

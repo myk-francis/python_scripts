@@ -48,12 +48,15 @@ if user_input == 1:
     main_user_date = user_select_date
     main_user_time = user_time
 
-    program_successful = route_report_download.download_report(user_select_date, user_select_time)
-    # program_successful = True
+    #program_successful = route_report_download.download_report(user_select_date, user_select_time)
+    program_successful = True
 
     if program_successful:
         print("\nDownload was Successfull!")
         user_input = int(input("\nIs the report inside the download folder?\n1.Yes, Continue...\n2.Download Manually\n\n>"))
+
+        if user_input != 1:
+            exit()
 
         path_to_file = glob.glob( str(Path.cwd().parents[0]) + '/Route+report' + '*.xlsx')
 
@@ -67,8 +70,8 @@ if user_input == 1:
 
             user_input = int(input("\nConvert Report?\n1.Yes\n2.No\n\n>"))
             if user_input == 1:
-                program_successful = route_report_convert.convert_report(user_select_date, user_select_time)
-                # program_successful = True
+                #program_successful = route_report_convert.convert_report(user_select_date, user_select_time)
+                program_successful = True
 
                 if program_successful:
 
@@ -76,8 +79,8 @@ if user_input == 1:
 
                     user_input = int(input("\nIs the alarms.xlsx file in the folder??\n1.Yes\n2.No\n\n>"))
                     if user_input == 1:
-                            program_successful = route_report_alarms.add_alarms(user_select_date, user_select_time)
-                            # program_successful = True
+                            #program_successful = route_report_alarms.add_alarms(user_select_date, user_select_time)
+                            program_successful = True
 
                             if program_successful:
 
@@ -88,8 +91,8 @@ if user_input == 1:
 
                                     user_input = int(input("\nSend Report To Client?\n1.Yes\n2.No\n\n>"))
                                     if user_input == 1:
-                                        program_successful = route_report_mail.send_mail(user_select_date, user_select_time)
-                                        # program_successful = True
+                                        #program_successful = route_report_mail.send_mail(user_select_date, user_select_time)
+                                        program_successful = True
 
                                         if program_successful:
                                             print("\n\n\nReport was sent to client successfully\nHave a wonderfull day!!!")
