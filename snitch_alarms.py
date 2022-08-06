@@ -2,6 +2,7 @@ import enum
 import re
 import time
 import logging
+from pip import main
 from tqdm import tqdm
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -13,8 +14,6 @@ from sqlalchemy import all_
 logging.basicConfig(filename='reportLOGS.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S %p %Z')
 
 def snitch_alarms_to_file():
-
-    output_file = open('alarms_output.log', 'a')
 
     print("\n")
     
@@ -86,10 +85,11 @@ def snitch_alarms_to_file():
         logging.debug("Found the Max button\n")
 
     try:
+        final_alarms_list = []
         main_alarms_list = []
         alarms_list = []
         local_list = []
-        missing_indicator = True
+        missing_indicator = []
         count = 0
 
         while True:
@@ -120,13 +120,14 @@ def snitch_alarms_to_file():
 
             if len(main_alarms_list) == 0:
                 main_alarms_list = alarms_list
+                final_alarms_list = main_alarms_list
                 for main_alarm in main_alarms_list:
-                    output_file.write(f'Truck: {main_alarm[0]}\n')
-                    output_file.write(f'Alarm Type: {main_alarm[1]}\n')
-                    output_file.write(f'Alarm Time: {main_alarm[2]}\n')
-                    output_file.write(f'Speed: {main_alarm[4]}\n')
-                    output_file.write(f'Description: {main_alarm[6]}\n')
-                    output_file.write(f'Location: \n\n')
+                    print(f'Truck: {main_alarm[0]}')
+                    print(f'Alarm Type: {main_alarm[1]}')
+                    print(f'Alarm Time: {main_alarm[2]}')
+                    print(f'Speed: {main_alarm[4]}')
+                    print(f'Description: {main_alarm[6]}')
+                    print(f'Location: \n\n')
 
                 alarms_list = []
 
@@ -136,24 +137,23 @@ def snitch_alarms_to_file():
                 for alarm in alarms_list:
                     for main_alarm in main_alarms_list:
                         if alarm[0] not in main_alarm:
-                            missing_indicator = True
+                            missing_indicator.append(True)
                         else:
-                            missing_indicator = False
+                            missing_indicator.append(False)
 
 
-                    if missing_indicator == True:
-                        output_file.write(f'Truck: {main_alarm[0]}\n')
-                        output_file.write(f'Alarm Type: {main_alarm[1]}\n')
-                        output_file.write(f'Alarm Time: {main_alarm[2]}\n')
-                        output_file.write(f'Speed: {main_alarm[4]}\n')
-                        output_file.write(f'Description: {main_alarm[6]}\n')
-                        output_file.write(f'Location: \n\n')
+                    if all(missing_indicator) == True:
+                        print("\n\n\n-----------------NEW ALARM ADDED---------------\n")
+                        main_alarms_list.append(alarm)
+                        print(f'Truck: {alarm[0]}')
+                        print(f'Alarm Type: {alarm[1]}')
+                        print(f'Alarm Time: {alarm[2]}')
+                        print(f'Speed: {alarm[4]}')
+                        print(f'Description: {alarm[6]}')
+                        print(f'Location: \n\n')
 
-                    missing_indicator = False
+                    missing_indicator = []
 
-                
-                print("\n\n\n-----------------NEW ALARM ADDED---------------\n\n\n")
-                            
                 alarms_list = []
 
             pbar.update(20)
@@ -166,7 +166,6 @@ def snitch_alarms_to_file():
     else:
         logging.debug("Found - TABLE\n")
     
-    output_file.close()
     print("\n")
     exit()
 
