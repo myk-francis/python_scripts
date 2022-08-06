@@ -22,31 +22,31 @@ def snitch_alarms_to_file():
     browser.get('http://truesecuritygps.net/Skins/DefaultIndex_EN/')
 
     userElem = browser.find_element(By.ID, 'txtUserName')
-    userElem.send_keys('Truesecurity')
+    userElem.send_keys('Impala_trucks')
     passwordElem = browser.find_element(By.ID, 'txtPwd')
-    passwordElem.send_keys('TrueGPS123!')
+    passwordElem.send_keys('trucktracking')
     passwordElem.submit()
 
 
-    try:
-        monitoring_button = WebDriverWait(browser, 20).until(
-            EC.presence_of_element_located((By.LINK_TEXT, "Monitoring"))
-        )
-        time.sleep(10)
-        monitoring_button.click()
-    except NoSuchElementException:
-        logging.info('Monitoring Link Missing')
-        return False
-    finally:
-        logging.info('Monitoring Link Found')
+    # try:
+    #     monitoring_button = WebDriverWait(browser, 20).until(
+    #         EC.presence_of_element_located((By.LINK_TEXT, "Monitoring"))
+    #     )
+    #     time.sleep(10)
+    #     monitoring_button.click()
+    # except NoSuchElementException:
+    #     logging.info('Monitoring Link Missing')
+    #     return False
+    # finally:
+    #     logging.info('Monitoring Link Found')
         
-    try:
-        browser.switch_to.window(browser.window_handles[1])
-    except Exception as e:
-        logging.info('Failed to switch windows \n')
-        logging.info(e)
-    else:
-        logging.info('Switched Windows \n')
+    # try:
+    #     browser.switch_to.window(browser.window_handles[1])
+    # except Exception as e:
+    #     logging.info('Failed to switch windows \n')
+    #     logging.info(e)
+    # else:
+    #     logging.info('Switched Windows \n')
 
 
     try:
