@@ -63,3 +63,20 @@
 --     speed FLOAT,
 --     device_location TEXT
 -- );
+
+
+-- CREATE TABLE alarms(
+--     id SERIAL PRIMARY KEY,
+--     rec_date  DATE NOT NULL DEFAULT CURRENT_DATE,
+--     home TEXT,
+--     away TEXT,
+--     home_goals INT,
+--     away_goals INT,
+--     first_half_goals INT,
+--     sec_half_goals INT,
+--     total_goals INT,
+--     match_result TEXT,
+--     bet_value TEXT,
+--     over_under TEXT,
+--     bet_win_lose TEXT,
+-- );

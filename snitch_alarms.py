@@ -28,27 +28,6 @@ def snitch_alarms_to_file():
     passwordElem.submit()
 
 
-    # try:
-    #     monitoring_button = WebDriverWait(browser, 20).until(
-    #         EC.presence_of_element_located((By.LINK_TEXT, "Monitoring"))
-    #     )
-    #     time.sleep(10)
-    #     monitoring_button.click()
-    # except NoSuchElementException:
-    #     logging.info('Monitoring Link Missing')
-    #     return False
-    # finally:
-    #     logging.info('Monitoring Link Found')
-        
-    # try:
-    #     browser.switch_to.window(browser.window_handles[1])
-    # except Exception as e:
-    #     logging.info('Failed to switch windows \n')
-    #     logging.info(e)
-    # else:
-    #     logging.info('Switched Windows \n')
-
-
     try:
         something = WebDriverWait(browser, 30).until(
             EC.presence_of_element_located((By.ID, "mUrl"))
@@ -112,15 +91,14 @@ def snitch_alarms_to_file():
                         count = 0
                         if bool(re.match(r'^[A-Z]', local_list[0])):
                             alarms_list.append(local_list)
+                            
                         
                         local_list = []
 
             pbar.update(20)
 
-
             if len(main_alarms_list) == 0:
                 main_alarms_list = alarms_list
-                final_alarms_list = main_alarms_list
                 for main_alarm in main_alarms_list:
                     print(f'Truck: {main_alarm[0]}')
                     print(f'Alarm Type: {main_alarm[1]}')
@@ -132,6 +110,7 @@ def snitch_alarms_to_file():
                 alarms_list = []
 
             pbar.update(20)
+
                 
             if (len(main_alarms_list) > 0) and (len(alarms_list) > 0):
                 for alarm in alarms_list:
@@ -141,7 +120,7 @@ def snitch_alarms_to_file():
                         else:
                             missing_indicator.append(False)
 
-
+                
                     if all(missing_indicator) == True:
                         print("\n\n\n-----------------NEW ALARM ADDED---------------\n")
                         main_alarms_list.append(alarm)
