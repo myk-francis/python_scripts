@@ -2,15 +2,15 @@
 
 -- CREATE TABLE manifest(
 --     id SERIAL PRIMARY KEY,
---     device_id INT,
+--     device_id TEXT,
 --     cargo_type TEXT,
 --     load_point TEXT,
 --     destination TEXT,
 --     country TEXT,
 --     transporter TEXT,
---     horse VARCHAR(10),
---     trailer_1 VARCHAR(10),
---     trailer_2 VARCHAR(10),
+--     horse TEXT,
+--     trailer_1 TEXT,
+--     trailer_2 TEXT,
 --     tag_request_date TIMESTAMP DEFAULT NULL,
 --     tag_installation_date TIMESTAMP DEFAULT NULL,
 --     trip_end_time TIMESTAMP DEFAULT NULL
@@ -38,8 +38,8 @@
 
 -- CREATE TABLE route_tracking(
 --     id SERIAL PRIMARY KEY,
---     horse VARCHAR(10),
---     device_id INT,
+--     horse TEXT,
+--     device_id TEXT,
 --     battery INT,
 --     device_status VARCHAR(100),
 --     device_location TEXT,
@@ -54,11 +54,11 @@
 
 -- CREATE TABLE alarms(
 --     id SERIAL PRIMARY KEY,
---     horse VARCHAR(10),
+--     horse TEXT,
 --     alarm_type VARCHAR(100),
 --     alarm_time TIMESTAMP,
---     longitude FLOAT,
---     latitude FLOAT,
+--     longitude TEXT,
+--     latitude TEXT,
 --     locate_time TIMESTAMP,
 --     speed FLOAT,
 --     device_location TEXT
