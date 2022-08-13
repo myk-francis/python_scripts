@@ -30,10 +30,10 @@
 
 -- CREATE TABLE device_list(
 --     id SERIAL PRIMARY KEY,
---     device_id INT,
---     horse VARCHAR(10),
---     sim_card VARCHAR(25),
---     iccid VARCHAR(25)
+--     device_id TEXT,
+--     horse TEXT,
+--     sim_card TEXT,
+--     iccid TEXT
 -- );
 
 -- CREATE TABLE route_tracking(

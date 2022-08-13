@@ -2,7 +2,7 @@ import psycopg2
 import pandas as pd
 import pandas.io.sql as psql
 
-def insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose):
+def insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose, round):
     try:
         connection = psycopg2.connect(user="postgres",
                                       password="myk",
@@ -25,10 +25,11 @@ def insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goa
         match_result, 
         bet_value, 
         over_under, 
-        bet_win_lose
+        bet_win_lose,
+        round
         ) 
         VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
-        record_to_insert = (home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose)
+        record_to_insert = (home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose, round)
         cursor.execute(insert_query, record_to_insert)
 
         connection.commit()
@@ -96,7 +97,7 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
         home_sec_half_goals = home_record[9] + sec_half_goals
         
 
-        # Update single record now
+        # Update single record now HOME team
         sql_update_query = """UPDATE teams SET 
                                 played = %s,
                                 wins = %s,
@@ -139,7 +140,7 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
         away_sec_half_goals = away_record[9] + sec_half_goals
         
 
-        # Update single record now
+        # Update single record now AWAY team
         sql_update_query = """UPDATE teams SET 
                                 played = %s,
                                 wins = %s,
@@ -195,6 +196,8 @@ try:
 
     bet_input = input("\nDid you put up a parley?\n1.Yes\n2.No\n>")
 
+    round = input("\nRound?\n>")
+
     if bet_input == '1':
         bet_value = input("\nWhat was it:")
 
@@ -234,7 +237,7 @@ try:
         home_goals = 0
         away_goals = 0
 
-    insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose)
+    insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose, round)
 
     #update_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose)
 
