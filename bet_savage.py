@@ -28,7 +28,7 @@ def insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goa
         bet_win_lose,
         round
         ) 
-        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+        VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
         record_to_insert = (home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose, round)
         cursor.execute(insert_query, record_to_insert)
 
@@ -62,7 +62,7 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
         cursor = connection.cursor()
 
         print("Updating teams table!!!\n\n")
-        teams= psql.read_sql("SELECT * FROM teams", connection)
+        teams= psql.read_sql("SELECT * FROM teams ORDER BY id ASC", connection)
         print(teams)
         print("\n\n")
 
@@ -80,15 +80,17 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
             draws = home_record[6]
             home_points = home_record[12] + 3
 
-        elif match_result == away_team:
+        elif match_result == "Draw":
+            draws = home_record[6] + 1
+            home_points = home_record[12] + 1
+            wins = home_record[4]
+            loses = home_record[5]
+
+        else:
             loses = home_record[5] + 1
             wins = home_record[4]
             draws = home_record[6]
             home_points = home_record[12] 
-
-        else:
-            draws = home_record[6] + 1
-            home_points = home_record[12] + 1
 
         goals = home_record[7] + total_goals
 
@@ -123,16 +125,19 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
             draws = away_record[6]
             away_points = away_record[12] + 3
 
-        elif match_result == away_team:
+        elif match_result == "Draw":
+            draws = away_record[6] + 1
+            away_points = away_record[12] + 1
+            wins = home_record[4]
+            loses = home_record[5]
+
+        else:
             loses = away_record[5] + 1
             wins = away_record[4]
             draws = away_record[6]
             away_points = away_record[12] 
 
-        else:
-            draws = away_record[6] + 1
-            away_points = away_record[12] + 1
-
+    
         goals = away_record[7] + total_goals
 
         away_first_half_goals = away_record[8] + first_half_goals
@@ -157,7 +162,7 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
         print("Records Updated successfully\n\n")
 
         print("After updating teams table!!!\n\n")
-        teams= psql.read_sql("SELECT * FROM teams", connection)
+        teams= psql.read_sql("SELECT * FROM teams ORDER BY id DESC", connection)
         print(teams)
         print("\n\n")
 
@@ -182,9 +187,11 @@ try:
 
     print("Lets Get it!!!\n\n")
 
-    teams = pd.read_sql('SELECT * FROM teams', connection)
+    teams = pd.read_sql('SELECT * FROM teams ORDER BY id DESC', connection)
     print(teams)
     print("\n\n")
+
+    round = int(input("\nRound?\n>"))
 
     home_team = input("Home team:")
 
@@ -195,8 +202,6 @@ try:
     total_goals = int(input("\nTotal Goals:"))
 
     bet_input = input("\nDid you put up a parley?\n1.Yes\n2.No\n>")
-
-    round = input("\nRound?\n>")
 
     if bet_input == '1':
         bet_value = input("\nWhat was it:")
@@ -239,7 +244,7 @@ try:
 
     insert_to_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose, round)
 
-    #update_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose)
+    update_table(home_team, away_team, home_goals, away_goals, first_half_goals, sec_half_goals, total_goals, match_result, bet_value, over_under, win_lose)
 
     print("\n\n\n***************     PROGRAM END     *****************************\n\n\n")
 
