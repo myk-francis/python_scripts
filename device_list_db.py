@@ -17,53 +17,21 @@ def upload_device_list():
         #creating a cursor
         cursor = connection.cursor()
 
-        manifest_data = []
         device_data = []
         updated_list = []
         
-        # manifest_wb = openpyxl.load_workbook(f'{str(Path.cwd())}/INPUT/manifest.xlsx')
-        # manifest_sheet = manifest_wb.active
-
         # device_wb = openpyxl.load_workbook(f'{str(Path.cwd())}/INPUT/device_list.xlsx')
         # device_sheet = device_wb.active
 
         device_wb = openpyxl.load_workbook(f'{str(Path.cwd())}/INPUT/device_list_update.xlsx')
         device_sheet = device_wb.active
 
-        # for row in range(2, 1000):
-
-        #     row_data = []
-
-        #     for col in range(3, 17):
-        #         row_data.append(manifest_sheet.cell(row=row, column=col).value)
-                        
-        #     if all(i is None for i in row_data):
-        #         break
-
-        #     # del row_data[8:10]
-        #     row_data.pop(8)
-        #     row_data.pop(11)
-            
-        #     for j in range(len(row_data)):
-        #         if (row_data[j] == None) and (j != 8) and (j != 10)and (j != 11):
-        #             row_data[j] = ''
-
-        #     #Ordering the list
-        #     myorder = [9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11]
-        #     duplicate_list_data = []
-        #     for i in myorder:
-        #         order_data = row_data[i] 
-        #         duplicate_list_data.append(order_data)
-            
-                    
-        #     manifest_data.append(duplicate_list_data)
-
 
         # for row in range(2, 2000):
 
         #     row_data = []
 
-        #     for col in range(2, 6):
+        #     for col in range(1, 6):
         #         row_data.append(device_sheet.cell(row=row, column=col).value)
                         
         #     if all(i is None for i in row_data):
@@ -75,7 +43,7 @@ def upload_device_list():
         #         if (row_data[j] == None):
         #             row_data[j] = ''
                     
-        #     device_data.append(row_data)
+        #     device_data.append(tuple(row_data)))
 
         for row in range(2, 2000):
 
@@ -94,22 +62,10 @@ def upload_device_list():
             device_data.append(row_data)
 
 
-        # manifest_data.reverse()
-
-        # for dev_data in device_data:
-        #     man_truck = ''
-        #     for man_data in manifest_data:
-        #         if man_data[0] == dev_data[0]:
-        #             man_truck = man_data[6]
-        #             break
-
-        #     dev_data.append(man_truck)
-        #     updated_list.append(tuple(dev_data))
-
         
         #The first insert into the table 
         # args = ','.join(cursor.mogrify("(%s,%s,%s,%s,%s)", i).decode('utf-8')
-        #                 for i in updated_list)
+        #                 for i in device_data)
         
         # executing the sql statement
         # cursor.execute("INSERT INTO device_list (device_id , sim_card, iccid, current_account, horse) VALUES " + (args))
