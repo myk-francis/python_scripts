@@ -176,6 +176,8 @@ def update_table(home_team, away_team, home_goals, away_goals, first_half_goals,
             connection.close()
             print("PostgreSQL connection is closed")
 
+
+
 try:
     connection = psycopg2.connect(user="postgres",
                                       password="myk",
