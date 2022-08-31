@@ -69,7 +69,7 @@ def add_alarms(rep_date, rep_time):
 
         route_rep_wb = openpyxl.load_workbook(f'Route Report ({datetime.now().strftime("%d-%m-%Y")}) {display_time} {display_am_pm}.xlsx')
 
-        route_rep_wb.create_sheet(index=2, title='Alarms')
+        route_rep_wb.create_sheet(index=3, title='Alarms')
 
         alarms_sheet = route_rep_wb['Alarms']
 

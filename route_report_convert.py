@@ -26,6 +26,7 @@ def convert_report(rep_date, rep_time):
         client_data = []
         tz_compiled_data = []
         sa_compiled_data = []
+        za_compiled_data = []
         missing_trucks = []
         missing_trucks_locator = []
         heading = ['NO', 'HORSE', 'TRAILER #1', 'TRAILER #2', 'CARGO TYPE', 'DESTINATION', 'TRANSPORTER', 'Device ID','Battery', 'Status','Location','Location Time', 'Speed', 'Geo Fence', 'From', 'To','KM']
@@ -99,12 +100,18 @@ def convert_report(rep_date, rep_time):
                         manifest.pop(4)
                         sliced_client = client[2:12]
                         tz_compiled_data.append([index_t] + manifest + sliced_client)
-                    else:
+                    elif manifest[7] == 'SOUTH AFRICA':
                         index_s += 1
                         manifest.pop(7)
                         manifest.pop(4)
                         sliced_client = client[2:12]
                         sa_compiled_data.append([index_s] + manifest + sliced_client)
+                    elif manifest[7] == 'ZAMBIA':
+                        index_s += 1
+                        manifest.pop(7)
+                        manifest.pop(4)
+                        sliced_client = client[2:12]
+                        za_compiled_data.append([index_s] + manifest + sliced_client)
 
                     missing_trucks_locator.append(True)
                 else:
@@ -146,6 +153,17 @@ def convert_report(rep_date, rep_time):
             sheet2.append(row)
 
         row = sheet2.row_dimensions[1]
+
+        row.font = Font(size=15, bold=True)
+
+        sheet3 = wb.create_sheet(title="DRC - ZA")
+
+        za_compiled_data.insert(0, heading)
+
+        for row in za_compiled_data:
+            sheet3.append(row)
+
+        row = sheet3.row_dimensions[1]
 
         row.font = Font(size=15, bold=True)
 
