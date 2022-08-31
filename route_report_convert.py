@@ -84,6 +84,7 @@ def convert_report(rep_date, rep_time):
         TCR = '(TCR)'
         index_t = 0
         index_s = 0
+        index_z = 0
         for client in client_data:
             if DRR in client[1]:
                 client[1] = re.sub(' \(DRR\)', '', client[1])
@@ -107,11 +108,11 @@ def convert_report(rep_date, rep_time):
                         sliced_client = client[2:12]
                         sa_compiled_data.append([index_s] + manifest + sliced_client)
                     elif manifest[7] == 'ZAMBIA':
-                        index_s += 1
+                        index_z += 1
                         manifest.pop(7)
                         manifest.pop(4)
                         sliced_client = client[2:12]
-                        za_compiled_data.append([index_s] + manifest + sliced_client)
+                        za_compiled_data.append([index_z] + manifest + sliced_client)
 
                     missing_trucks_locator.append(True)
                 else:
