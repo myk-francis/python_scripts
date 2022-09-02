@@ -55,6 +55,7 @@ def convert_report(rep_date, rep_time):
             manifest_data.append(row_data)
 
         pbar.update(10)
+        # print(manifest_data) -- FOR DEBUGGING
 
         for row in range(3, 1000):
 
@@ -95,6 +96,8 @@ def convert_report(rep_date, rep_time):
             missing_trucks_locator = []
             for manifest in manifest_data:
                 if client[1] in manifest:
+                    # print(client)
+                    # print(manifest)
                     if manifest[7] == 'TANZANIA':
                         index_t += 1
                         manifest.pop(7)
